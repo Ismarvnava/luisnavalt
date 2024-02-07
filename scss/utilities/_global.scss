@@ -1,0 +1,36 @@
+/*Estilos globales*/
+html {
+    font-size: 62.5%;
+    /*cambia a 10px*/
+    font-family: 'Oswald', sans-serif;
+}
+.logo {
+    height: 300px;
+    width: auto;
+}
+
+body {
+    background-color: rgba(178, 189, 250, 0.589);
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    color: #E84E1B;
+    font-size: 4rem;
+}
+
+h2 {
+    color: #00008F;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+    text-align: justify;
+    margin: 10px;
+}
+
+.message {
+    text-align: center;
+}

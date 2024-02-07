@@ -1,20 +1,21 @@
-/*Estilos Generales */
+/*Estilos Generales 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 1px red;
-}
-
+} 
+/*
 html {
-    font-size: 62.5%;
+    font-size: 62.5%;*/
     /*cambia a 10px*/
+    /*
     font-family: 'Oswald', sans-serif;
-}
+}*/
 /* header */
 
 
-.logo {
+/*.logo {
     height: 300px;
     width: auto;
 }
@@ -51,7 +52,7 @@ header nav ul li {
     text-transform: uppercase;
     color: #00008F;
 }
-
+*/
 
 /*Estilos footer*/
 .footer {
@@ -89,16 +90,13 @@ footer ul {
         height: auto;
     }
 }
-
+/*
 body {
     background-color: rgba(178, 189, 250, 0.589);
     font-family: 'Oswald', sans-serif;
 }
-
-
-
-
-
+*/
+/*
 h1 {
     color: #E84E1B;
     font-size: 4rem;
@@ -120,7 +118,7 @@ p {
 .message {
     text-align: center;
 }
-
+*/
 /* Main index /Home */
 main p {
     text-align: justify;

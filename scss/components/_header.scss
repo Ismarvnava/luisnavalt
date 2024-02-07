@@ -1,0 +1,41 @@
+header {
+    .logo {
+        height: 300px;
+        width: auto;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 15px;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            text-align: right;
+            display: flex;
+            column-gap: 10px;
+            font-size: 2rem;
+            padding: 15px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                text-decoration: none;
+                font-weight: 500;
+                text-transform: uppercase;
+                color: #00008F;
+            }
+        }
+    }// Media query anidada dentro de header
+    @media screen and (max-width:768px) {
+        flex-direction: column; // Se aplica a header
+        nav ul {
+            flex-direction: column; // Se aplica a nav ul
+        }
+    }
+}
