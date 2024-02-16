@@ -1,0 +1,26 @@
+/*main index*/
+main {
+    p {
+        text-align: justify;
+    }
+}
+
+.pueblos {
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    text-align: center;
+}
+
+.vehicle {
+    display: inline-block;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: 80%;
+        vertical-align: middle;
+    }
+}

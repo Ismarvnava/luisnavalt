@@ -1,0 +1,20 @@
+/* Main services - grid  */
+.service1 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+.services {
+    p {
+        text-align: justify;
+        font-size: 2rem;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: auto;
+    }
+}

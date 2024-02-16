@@ -54,7 +54,7 @@ header nav ul li {
 }
 */
 
-/*Estilos footer*/
+/*Estilos footer
 .footer {
     justify-content: center;
 }
@@ -119,7 +119,7 @@ p {
     text-align: center;
 }
 */
-/* Main index /Home */
+/* Main index /Home 
 main p {
     text-align: justify;
 }
@@ -143,8 +143,8 @@ main p {
     height: 80%;
     vertical-align: middle;
 }
-
-/* Main our fleet */
+*/
+/* Main our fleet 
 .car-type {
     text-align: justify;
 
@@ -155,7 +155,8 @@ main p {
 
 }
 
-/* Main services - grid  */
+*/
+/* Main services - grid  
 .service1 {
     display: grid;
     grid-template-columns: 100%;
@@ -175,14 +176,14 @@ main p {
     height: auto;
 
 }
-
-/* Main help */
+*/
+/* Main help 
 h3 {
     font-size: 3rem;
     text-transform: uppercase;
 }
-
-/* estilos form aplican a form en help y book-now */
+*/
+/* estilos form aplican a form en help y book-now 
 form {
     font-size: 3rem;
     height: auto;
@@ -202,6 +203,6 @@ label {
 ::placeholder {
     font-size: 3rem;
 }
-
+*/
 /* Main book now, estilos de form y p aplicados anteriormente */
 /*footer*/

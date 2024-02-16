@@ -1,0 +1,27 @@
+/* Main help */
+h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+/* Estilos del formulario aplican a form en help y book-now */
+form {
+    font-size: 3rem;
+    height: auto;
+    width: auto;
+
+    input {
+        display: block;
+        width: 30%;
+        padding: 20px;
+    }
+
+    label {
+        display: block;
+    }
+
+    ::placeholder {
+        font-size: 3rem;
+    }
+}
+/* Main book now, estilos de form y p aplicados anteriormente */
