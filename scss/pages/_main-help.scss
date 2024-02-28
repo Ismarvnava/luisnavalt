@@ -1,7 +1,7 @@
-/* Main help */
 h3 {
+    color: $naranja-logo;
     font-size: 3rem;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 /* Estilos del formulario aplican a form en help y book-now */
@@ -24,4 +24,5 @@ form {
         font-size: 3rem;
     }
 }
+
 /* Main book now, estilos de form y p aplicados anteriormente */

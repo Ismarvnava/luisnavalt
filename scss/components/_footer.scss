@@ -2,11 +2,23 @@
 .footer {
     justify-content: center;
 
-    ul {
-        list-style: none;
-        text-transform: uppercase;
-        text-align: end;
-        font-size: 3rem;
+    .footer-section {
+        .col-1 {
+            ul {
+                li {
+                    font-size: 5rem;
+                    list-style: none;
+                    text-transform: uppercase;
+                    text-align: end;
+                    a {
+                        // Aplicar estilos al texto dentro de los enlaces
+                        text-decoration: none; // Eliminar subrayado
+                        color: #000; // Color del texto
+                        font-weight: bold; // Fuente en negrita
+                    }
+                }
+            }
+        }
     }
 
     .partner-with-us {
