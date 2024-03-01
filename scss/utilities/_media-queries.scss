@@ -1,6 +1,7 @@
 @media screen and (max-width:768px) {
-        flex-direction: column; // Se aplica a header
-        nav ul {
+        header {flex-direction: column; // Se aplica a header
+        }
+            nav ul {
             flex-direction: column; // Se aplica a nav ul
         }
     }

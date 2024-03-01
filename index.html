@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--Link a CSS
-    <link rel="stylesheet" href="./css/style.css">--> 
+    <link rel="stylesheet" href="./css/style.css">-->
     <!--Link a sass css-->
     <link rel="stylesheet" href="./css/main.css">
     <title>LuisNavaLT | Home</title>
@@ -21,25 +21,40 @@
 
 <body>
     <header class="header">
-        <img src="./img/luisnavalt-logo.png" alt="Logo Luis Nava Logística y Transportación" class="logo">
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./pages/our-fleet.html">Our Fleet</a>
-                </li>
-                <li>
-                    <a href="./pages/services.html">Services</a>
-                </li>
-                <li>
-                    <a href="./pages/help.html">Help</a>
-                </li>
-                <li>
-                    <a href="./pages/book-now.html">Book Now</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <a class="navbar-brand" href="#"><img src="img/luisnavalt-logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+                aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
+                aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li>
+                                <a href="./index.html">HOME</a>
+                            </li>
+                            <li>
+                                <a href="./pages/our-fleet.html">OUR FLEET</a>
+                            </li>
+                            <li>
+                                <a href="./pages/services.html">SERVICES</a>
+                            </li>
+                            <li>
+                                <a href="./pages/help.html">HELP</a>
+                            </li>
+                            <li>
+                                <a href="./pages/book-now.html">BOOK NOW</a>
+                            </li>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="main-index  container">
@@ -65,23 +80,23 @@
         </div>
         <section class="row">
             <div class="vehicle col-sm-12 col-md-3">
-                <img src="./img/sedan-3p.png" alt="Vehicle sedan">
+                <img src="./img/sedan-3p.png" alt="Vehicle sedan for 4 people in Guadalajara">
                 <p>Sedan max 3 ppl</p>
             </div>
             <div class="vehicle col-sm-12 col-md-3">
-                <img src="./img/toyota-avanza-shuttle-6p.png" alt="Vehicle SUV">
+                <img src="./img/toyota-avanza-shuttle-6p.png" alt="Vehicle SUV for 6 people in Guadalajara">
                 <p>Toyota SUV max 6 ppl</p>
             </div>
             <div class="vehicle col-sm-12 col-md-6">
-                <img src="./img/toyota-hiace-14.png" alt="Vehicle minibus">
+                <img src="./img/toyota-hiace-14.png" alt="Vehicle minibus for 14 people in Guadalajara">
                 <p>Minibus max 14ppl</p>
             </div>
             <div class="vehicle col-sm-12 col-md-6">
-                <img src="./img/sprinter-20p.png" alt="Vehicle Sprinter Mercedez Benz">
+                <img src="./img/sprinter-20p.png" alt="Vehicle sprinter for 20 people in Guadalajara">
                 <p>Sprinter max 20 ppl + luggage</p>
             </div>
             <div class="vehicle col-sm-12 col-md-6">
-                <img src="./img/white-Bus.png" alt="Vehicle Bus">
+                <img src="./img/white-Bus.png" alt="Vehicle Bus for 40 people in Guadalajara">
                 <p>Bus max 60ppl + luggage</p>
             </div>
         </section>
@@ -90,9 +105,9 @@
                     message</a></p>
         </section>
     </main>
-    <footer class="container">
-        <section class="footer-section row d-flex justify-content-between">
-            <div class="col-4">
+    <footer>
+        <section>
+            <div>
                 <p>
                     ABOUT US: At LuisNavaLT, we're more than a transportation service; we're the architects of memorable
                     journeys, weaving a tapestry of luxury, efficiency, and personalized experiences.
@@ -102,7 +117,7 @@
                     memories.
                 </p>
             </div>
-            <div class="col-4">
+            <div>
                 <p>
                     PARTNER WITH US: Elevate your travel offerings with LuisNavaLT! Calling all travel agencies to join
                     forces with us for seamless and luxurious tourist and executive transportation in Guadalajara,
@@ -111,23 +126,23 @@
                     today and let's create unforgettable experiences together!.
                 </p>
             </div>
-            <div class=" col-1">
+            <div>
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/luisnavalt" target="_blank">Facebook</a>
+                        <a href="https://www.facebook.com/luisnavalt" target="_blank"><img src="img/facebook-logo.png"></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/luisnavalt/" target="_blank">Instagram</a>
+                        <a href="https://www.instagram.com/luisnavalt/" target="_blank"><img src="img/instagram-logo.png"></a>
                     </li>
                     <li>
-                        <a href="https://wa.me/message/PNICXBTJJ3S4C1" target="_blank">WhatsApp</a>
+                        <a href="https://wa.me/message/PNICXBTJJ3S4C1" target="_blank"><img src="img/whatsapp-logo.png"></a>
                     </li>
                     <li>
-                        <a href="https://www.tiktok.com/@luisnavalt" target="_blank">TikTok</a>
+                        <a href="https://www.tiktok.com/@luisnavalt" target="_blank"><img src="img/tik-tok-logo.png"></a>
                     </li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div>
                 <img src="./img/luisnavalt-logo.png" alt="Logo Luis Nava Logística y Transportación" class="img-fluid">
         </section>
         <section class="reserved">

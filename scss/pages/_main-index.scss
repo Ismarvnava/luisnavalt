@@ -1,17 +1,18 @@
 /*main index*/
-main {
+.main-index {
+    margin-top: 300px;
     p {
         text-align: justify;
     }
 }
 
 .pueblos {
+    text-align: center;
+
     img {
         width: 100%;
         height: auto;
     }
-
-    text-align: center;
 }
 
 .vehicle {

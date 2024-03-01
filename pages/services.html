@@ -18,26 +18,41 @@
 </head>
 
 <body>
-    <header>
-        <img src="../img/luisnavalt-logo.png" alt="Logo Luis Nava Logística y Transportación" class="logo">
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./our-fleet.html">Our Fleet</a>
-                </li>
-                <li>
-                    <a href="./services.html">Services</a>
-                </li>
-                <li>
-                    <a href="./help.html">Help</a>
-                </li>
-                <li>
-                    <a href="./book-now.html">Book Now</a>
-                </li>
-            </ul>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <a class="navbar-brand" href="#"><img src="../img/luisnavalt-logo.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+                aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
+                aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./our-fleet.html">Our Fleet</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="./services.html">Services</a>
+                            </li>
+                            <li>
+                                <a href="./help.html">Help</a>
+                            </li>
+                            <li>
+                                <a href="./book-now.html">Book Now</a>
+                            </li>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="main-services">
@@ -55,17 +70,17 @@
             </p>
         </div>
         <section class="service1">
-            <div class="services">
+            <div class="card">
+                <figure>
+                    <img src="../img/airport-meet-and-greet.jpg" alt="meet and greet in the airport in Guadalajara">
+                </figure>
+                <div class="contenido">
                 <h3>Airport Meet and Greet</h3>
-                <img src="../img/Airport-Meet-and-Greet.jpg" alt="meet and greet in the airport">
                 <p>
                     Experience a warm welcome with LuisNavaLT's exclusive Meet and Greet service at the airport.
-                    Elevating
-                    your arrival in Guadalajara, Jalisco, we go above and beyond to ensure a seamless transition from
-                    your
-                    flight to your destination. Our attentive team meticulously tracks your flight, guaranteeing that we
-                    are
-                    there to greet you in the arrival hall, ready to make your arrival extraordinary.
+                    Elevating your arrival in Guadalajara, Jalisco, we go above and beyond to ensure a seamless transition from
+                    your flight to your destination. Our attentive team meticulously tracks your flight, guaranteeing that we
+                    are there to greet you in the arrival hall, ready to make your arrival extraordinary.
                 </p>
                 <p>
                     Upon your arrival, our courteous staff will be holding a personalized banner with your name,
@@ -81,6 +96,8 @@
                     LuisNavaLT begins with a positive and stress-free experience. Trust us to make your arrival in
                     Guadalajara exceptional with our dedicated Meet and Greet service.
                 </p>
+                <a href="#">Read more</a>
+            </div>
             </div>
             <div class="services">
                 <h3>Special Events Transportation</h3>
@@ -140,9 +157,9 @@
                     send a message</a></p>
         </section>
     </main>
-    <footer class="container">
-        <section class="footer-section row d-flex justify-content-between">
-            <div class="col-4">
+    <footer>
+        <section>
+            <div>
                 <p>
                     ABOUT US: At LuisNavaLT, we're more than a transportation service; we're the architects of memorable
                     journeys, weaving a tapestry of luxury, efficiency, and personalized experiences.
@@ -152,7 +169,7 @@
                     memories.
                 </p>
             </div>
-            <div class="col-4">
+            <div>
                 <p>
                     PARTNER WITH US: Elevate your travel offerings with LuisNavaLT! Calling all travel agencies to join
                     forces with us for seamless and luxurious tourist and executive transportation in Guadalajara,
@@ -161,23 +178,23 @@
                     today and let's create unforgettable experiences together!.
                 </p>
             </div>
-            <div class=" col-1">
+            <div class=>
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/luisnavalt" target="_blank">Facebook</a>
+                        <a href="https://www.facebook.com/luisnavalt" target="_blank"><img src="../img/facebook-logo.png"></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/luisnavalt/" target="_blank">Instagram</a>
+                        <a href="https://www.instagram.com/luisnavalt/" target="_blank"><img src="../img/instagram-logo.png"></a>
                     </li>
                     <li>
-                        <a href="https://wa.me/message/PNICXBTJJ3S4C1" target="_blank">WhatsApp</a>
+                        <a href="https://wa.me/message/PNICXBTJJ3S4C1" target="_blank"><img src="../img/whatsapp-logo.png"></a>
                     </li>
                     <li>
-                        <a href="https://www.tiktok.com/@luisnavalt" target="_blank">TikTok</a>
+                        <a href="https://www.tiktok.com/@luisnavalt" target="_blank"><img src="../img/tik-tok-logo.png"></a>
                     </li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div>
                 <img src="../img/luisnavalt-logo.png" alt="Logo Luis Nava Logística y Transportación" class="img-fluid">
         </section>
         <section class="reserved">

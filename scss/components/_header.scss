@@ -1,33 +1,53 @@
-header {
-    .logo {
-        height: 300px;
-        width: auto;
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-        padding: 15px;
-    }
-
+.header {
     nav {
-        ul {
-            list-style: none;
-            text-align: right;
-            display: flex;
-            column-gap: 10px;
-            font-size: 2rem;
-            padding: 15px;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            li {
-                text-decoration: none;
-                font-weight: 500;
-                text-transform: uppercase;
-                color: #00008F;
+        &.navbar {
+            &.navbar-expand-lg {
+                &.bg-body-tertiary {
+                    background-color: transparent !important;
+
+                    &.fixed-top {
+                        .navbar-brand {
+                            height: 100%;
+                            width: auto;
+                        }
+
+                        .navbar-toggler {
+                            background-color: $detalles-naranja;
+                            color: $detalles-naranja;
+                            /* Estilos para el botón del toggler */
+                            height: 50px;
+                            width: auto;
+                        }
+
+                        .navbar-nav {
+                            /* Estilos para la lista de navegación */
+                            justify-content: end;
+                            flex-grow: 1;
+
+
+
+                            li {
+                                font-size: 3rem;
+                                /* Estilos para los elementos de la lista */
+                                margin-right: 20px;
+                                text-transform: capitalize;
+
+                                a {
+                                    text-decoration: none;
+                                    color: #d88839;
+                                }
+                            }
+                        }
+
+                        .navbar-collapse {
+                            &.show {
+                                background-color: rgba(0, 0, 0, 0.8);
+                                /* Fondo del menú abierto */
+                                /* Agrega más estilos según sea necesario */
+                            }
+                        }
+                    }
+                }
             }
         }
     }

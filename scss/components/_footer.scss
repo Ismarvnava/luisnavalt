@@ -3,18 +3,19 @@
     justify-content: center;
 
     .footer-section {
-        .col-1 {
-            ul {
+        .col-md-3 col-sm-12 {
+            ul
                 li {
-                    font-size: 5rem;
                     list-style: none;
                     text-transform: uppercase;
                     text-align: end;
+                    font-size: 2rem;
                     a {
                         // Aplicar estilos al texto dentro de los enlaces
                         text-decoration: none; // Eliminar subrayado
-                        color: #000; // Color del texto
+                        color: #111111; // Color del texto
                         font-weight: bold; // Fuente en negrita
+                        
                     }
                 }
             }
@@ -49,4 +50,3 @@
             height: auto;
         }
     }
-}
