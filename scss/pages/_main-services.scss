@@ -1,24 +1,62 @@
 /* Main services - grid  */
-main-services {
-    margin-top: 100px;
-}
+.main-services {
+    margin-top: 200px;
 
-.service1 {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
+    h1 {
+        margin-bottom: 10px;
+    }
 
-    .services {
-        p {
-            text-align: justify;
-            font-size: 2rem;
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        overflow: hidden;
+
+        figure {
+            margin: 0;
         }
 
         img {
-            display: block;
-            margin: 0 auto;
-            width: 80%;
+            width: 100%;
             height: auto;
+        }
+
+        .contenido {
+            padding: 20px;
+
+            h3 {
+                font-size: 18px;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 2rem;
+                line-height: 1.5;
+                margin-bottom: 15px;
+                color: $azul-fondo;
+            }
+
+            a {
+                @extend %styles;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    a {
+        @extend %styles;
+
+        &:hover {
+            text-decoration: underline;
         }
     }
 }

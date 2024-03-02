@@ -1,49 +1,47 @@
 .header {
-    nav {
-        &.navbar {
-            &.navbar-expand-lg {
-                &.bg-body-tertiary {
-                    background-color: transparent !important;
+    max-width: auto;
+    .navbar {
+        margin-top: 0 !important;
 
-                    &.fixed-top {
-                        .navbar-brand {
-                            height: 100%;
-                            width: auto;
-                        }
+        &.navbar-expand-lg {
+            &.bg-body-tertiary {
+                background-color: transparent !important;
+            }
 
-                        .navbar-toggler {
-                            background-color: $detalles-naranja;
-                            color: $detalles-naranja;
-                            /* Estilos para el botón del toggler */
-                            height: 50px;
-                            width: auto;
-                        }
+            .navbar-toggler {
+                background-color: $detalles-naranja;
+                color: $detalles-naranja;
+                /* Estilos para el botón del toggler */
+                height: 50px;
+                width: auto;
+            }
 
-                        .navbar-nav {
-                            /* Estilos para la lista de navegación */
-                            justify-content: end;
+            .collapse {
+                &.navbar-collapse {
+                    background-color: $azul-fondo;
+
+                    ul {
+                        &.navbar-nav {
+                            justify-content: flex-end;
                             flex-grow: 1;
 
+                            &.me-auto {
+                                &.mb-2 {
+                                    &.mb-lg-0 {
+                                        .nav-item {
+                                            font-size: 3rem;
+                                            /* Estilos para los elementos de la lista */
+                                            margin-right: 20px;
+                                            text-transform: capitalize;
+                                            font-weight: bold;
 
-
-                            li {
-                                font-size: 3rem;
-                                /* Estilos para los elementos de la lista */
-                                margin-right: 20px;
-                                text-transform: capitalize;
-
-                                a {
-                                    text-decoration: none;
-                                    color: #d88839;
+                                            a {
+                                                text-decoration: none;
+                                                color: $detalles-naranja; // Estilos para los enlaces de navegación
+                                            }
+                                        }
+                                    }
                                 }
-                            }
-                        }
-
-                        .navbar-collapse {
-                            &.show {
-                                background-color: rgba(0, 0, 0, 0.8);
-                                /* Fondo del menú abierto */
-                                /* Agrega más estilos según sea necesario */
                             }
                         }
                     }

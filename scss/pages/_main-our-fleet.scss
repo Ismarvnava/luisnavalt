@@ -1,7 +1,25 @@
-.car-type {
-    text-align: justify;
-    img {
-        width: 100%;
-        height: auto;
+.main-our-fleet {
+    margin-top: 200px;
+    margin-left: 20px;
+
+    .car-container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .car-type {
+        justify-content: center;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+.message
+    a {
+        text-decoration: none;
+        color: $detalles-naranja;
+        text-transform: capitalize;
+        font-weight: bold;
     }
 }

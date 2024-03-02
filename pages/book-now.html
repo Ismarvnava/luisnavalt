@@ -14,74 +14,69 @@
     <link rel="stylesheet" href="../css/style.css">-->
     <!--Link a SASS-->
     <link rel="stylesheet" href="../css/main.css">
-    <title>LuisNavaLT | Book Now</title>
+    <title>Book your ride|LuisNavaLT</title>
+    <meta name="description" content="Book your ride in Guadalajara, Jalisco, shuttle, airport transfers or special events">
+    <meta name="keywords" content="Transportation, Guadalajara, shuttle, airport, vehicle, van, sprinter, book, ride">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <a class="navbar-brand" href="#"><img src="../img/luisnavalt-logo.png" alt="Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
-                aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#"><img src="./../img/luisnavalt-logo.png" alt="Logo luisnavalt"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
-                aria-labelledby="navbarOffcanvasLgLabel">
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./our-fleet.html">Our Fleet</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="./services.html">Services</a>
-                            </li>
-                            <li>
-                                <a href="./help.html">Help</a>
-                            </li>
-                            <li>
-                                <a href="./book-now.html">Book Now</a>
-                            </li>
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="./../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./our-fleet.html">OUR FLEET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./help.html">HELP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./book-now.html">BOOK NOW</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
     <main class="main-book-now">
-        <h1>Luis Nava Logística y Transportación</h1>
-        <h2>Book now!</h2>
-        <p>Ready to book your ride? Just a click away! Schedule your trip now, and all the details will be sent straight to your email or phone via SMS. Easy, convenient, and hassle-free transportation awaits. Book now!.</p>
+        <h1>Book now!</h1>
+        <p>Ready to book your ride? Just a click away! Schedule your trip now, and all the details will be sent straight
+            to your email or phone via SMS. Easy, convenient, and hassle-free transportation awaits. Book now!.</p>
+            <!--request for information to book a service with the company, information required-->
         <section>
             <form>
-                <label for="PICK UP LOCATION">PICK UP LOCATION</label>
-                <input type="text" placeholder="AIRPORT/ADDRESS/HOTEL" id="PICK UP LOCATION" required>
-                <label for="DROP OFF LOCATION">DROP OFF LOCATION</label>
-                <input type="text" placeholder="AIRPORT/ADDRESS/HOTEL" id="DROP OFF LOCATION" required>
+                <label for="pickup-location">PICK UP LOCATION</label>
+                <input type="text" placeholder="AIRPORT/ADDRESS/HOTEL" id="pickup-location" required>
+                <label for="drop-off-location">DROP OFF LOCATION</label>
+                <input type="text" placeholder="AIRPORT/ADDRESS/HOTEL" id="drop-off-location" required>
                 <label for="datetime">Pick Up Date:</label>
                 <input type="datetime-local" id="datetime" required>
-                <label for="datetimereturn">Return Date:</label>
-                <input type="datetime-local" id="datetimereturn">
-                <input type="submit" value="submit">
+                <label for="datetime-return">Return Date:</label>
+                <input type="datetime-local" id="datetime-return">
+                <input type="submit" value="Submit">
             </form>
         </section>
         <section class="message">
             <p>
-                Do you have any special request? We can make it happen! <a href="../pages/help.html">Click here to send
+                Do you have any special request? We can make it happen! <a href="./../pages/help.html">Click here to
+                    send
                     a message</a>
             </p>
         </section>
     </main>
-    <footer class="container">
-        <section class="footer-section row d-flex justify-content-between">
-            <div class="col-4">
+    <footer>
+        <div class="footer-container">
+            <div>
                 <p>
                     ABOUT US: At LuisNavaLT, we're more than a transportation service; we're the architects of memorable
                     journeys, weaving a tapestry of luxury, efficiency, and personalized experiences.
@@ -91,7 +86,7 @@
                     memories.
                 </p>
             </div>
-            <div class="col-4">
+            <div>
                 <p>
                     PARTNER WITH US: Elevate your travel offerings with LuisNavaLT! Calling all travel agencies to join
                     forces with us for seamless and luxurious tourist and executive transportation in Guadalajara,
@@ -100,28 +95,34 @@
                     today and let's create unforgettable experiences together!.
                 </p>
             </div>
-            <div class=" col-1">
+            <div>
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/luisnavalt" target="_blank"><img src="../img/facebook-logo.png"></a>
+                        <a href="https://www.facebook.com/luisnavalt" target="_blank"><img
+                                src="./../img/facebook-logo.png" alt="Facebook logo"></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/luisnavalt/" target="_blank"><img src="../img/instagram-logo.png"></a>
+                        <a href="https://www.instagram.com/luisnavalt/" target="_blank"><img
+                                src="./../img/instagram-logo.png" alt="Instagram logo"></a>
                     </li>
                     <li>
-                        <a href="https://wa.me/message/PNICXBTJJ3S4C1" target="_blank"><img src="../img/whatsapp-logo.png"></a>
+                        <a href="https://wa.me/message/PNICXBTJJ3S4C1" target="_blank"><img
+                                src="./../img/whatsapp-logo.png" alt="WhatsApp logo"></a>
                     </li>
                     <li>
-                        <a href="https://www.tiktok.com/@luisnavalt" target="_blank"><img src="../img/tik-tok-logo.png"></a>
+                        <a href="https://www.tiktok.com/@luisnavalt" target="_blank"><img src="../img/tik-tok-logo.png"
+                                alt="Tik tok logo"></a>
                     </li>
                 </ul>
             </div>
-            <div class="col-3">
-                <img src="../img/luisnavalt-logo.png" alt="Logo Luis Nava Logística y Transportación" class="img-fluid">
-        </section>
-        <section class="reserved">
+            <div>
+                <img src="./../img/luisnavalt-logo.png" alt="Logo Luis Nava Logística y Transportación"
+                    class="img-fluid">
+            </div>
+        </div>
+        <div class="reserved">
             <p>ALL RIGHTS RESERVED</p>
-        </section>
+        </div>
     </footer>
     <!--Script Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

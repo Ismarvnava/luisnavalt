@@ -1,7 +1,30 @@
-@media screen and (max-width:768px) {
-        header {flex-direction: column; // Se aplica a header
-        }
-            nav ul {
-            flex-direction: column; // Se aplica a nav ul
-        }
+@media (max-width: 768px) {
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-content: center; 
     }
+
+    ul {
+        text-align: center; 
+        padding: 0; 
+        margin: 0; 
+    }
+
+    ul li {
+        display: inline-block;
+        margin: 0 10px; 
+    }
+
+    ul li img {
+        display: block; 
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .car-container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}

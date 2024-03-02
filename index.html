@@ -16,44 +16,37 @@
     <link rel="stylesheet" href="./css/style.css">-->
     <!--Link a sass css-->
     <link rel="stylesheet" href="./css/main.css">
-    <title>LuisNavaLT | Home</title>
+    <title>About LuisNavaLT | Home</title>
+    <meta name="description" content="Transportation company in Guadalajara, Jalisco, we provide shuttle, airport transfers and more with the vehicle you need">
+    <meta name="keywords" content="Transportation, Guadalajara, shuttle, airport, vehicle, van, sprinter">
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <a class="navbar-brand" href="#"><img src="img/luisnavalt-logo.png" alt="Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
-                aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#"><img src="img/luisnavalt-logo.png" alt="Logo luisnavalt"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
-                aria-labelledby="navbarOffcanvasLgLabel">
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li>
-                                <a href="./index.html">HOME</a>
-                            </li>
-                            <li>
-                                <a href="./pages/our-fleet.html">OUR FLEET</a>
-                            </li>
-                            <li>
-                                <a href="./pages/services.html">SERVICES</a>
-                            </li>
-                            <li>
-                                <a href="./pages/help.html">HELP</a>
-                            </li>
-                            <li>
-                                <a href="./pages/book-now.html">BOOK NOW</a>
-                            </li>
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/our-fleet.html">OUR FLEET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/help.html">HELP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/book-now.html">BOOK NOW</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -65,7 +58,8 @@
             travel. Whether you're seeking seamless airport transfers or exploring the city in style, we offer a fleet
             of meticulously maintained vehicles, including vans, cars, Sprinters, Suburbans, and buses. Our diverse
             range of services caters to every discerning traveler, ensuring a tailored and luxurious experience.
-
+        </p>
+        <p>
             Discover the epitome of comfort, safety, and sophistication as we redefine the art of transportation.
             LuisNavaLT goes beyond the ordinary, delivering unforgettable journeys that leave a lasting impression. Your
             adventure begins with us where every ride is a masterpiece and every destination, an opportunity for
@@ -79,13 +73,18 @@
             </div>
         </div>
         <section class="row">
-            <div class="vehicle col-sm-12 col-md-3">
+            <!--List of vehicles offered and capacity -->
+            <div class="vehicle col-sm-12 col-md-6">
                 <img src="./img/sedan-3p.png" alt="Vehicle sedan for 4 people in Guadalajara">
                 <p>Sedan max 3 ppl</p>
             </div>
-            <div class="vehicle col-sm-12 col-md-3">
+            <div class="vehicle col-sm-12 col-md-6">
                 <img src="./img/toyota-avanza-shuttle-6p.png" alt="Vehicle SUV for 6 people in Guadalajara">
                 <p>Toyota SUV max 6 ppl</p>
+            </div>
+            <div class="vehicle col-sm-12 col-md-6">
+                <img src="./img/suburban-6p.png" alt="Business SUV for 6 people in Guadalajara">
+                <p>Chevrolet Suburban max 6 ppl</p>
             </div>
             <div class="vehicle col-sm-12 col-md-6">
                 <img src="./img/toyota-hiace-14.png" alt="Vehicle minibus for 14 people in Guadalajara">
@@ -106,7 +105,7 @@
         </section>
     </main>
     <footer>
-        <section>
+        <div class="footer-container">
             <div>
                 <p>
                     ABOUT US: At LuisNavaLT, we're more than a transportation service; we're the architects of memorable
@@ -129,25 +128,30 @@
             <div>
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/luisnavalt" target="_blank"><img src="img/facebook-logo.png"></a>
+                        <a href="https://www.facebook.com/luisnavalt" target="_blank"><img src="img/facebook-logo.png"
+                                alt="facebook logo"></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/luisnavalt/" target="_blank"><img src="img/instagram-logo.png"></a>
+                        <a href="https://www.instagram.com/luisnavalt/" target="_blank"><img
+                                src="img/instagram-logo.png" alt="Instagram logo"></a>
                     </li>
                     <li>
-                        <a href="https://wa.me/message/PNICXBTJJ3S4C1" target="_blank"><img src="img/whatsapp-logo.png"></a>
+                        <a href="https://wa.me/message/PNICXBTJJ3S4C1" target="_blank"><img src="img/whatsapp-logo.png"
+                                alt="Whatsapp logo"></a>
                     </li>
                     <li>
-                        <a href="https://www.tiktok.com/@luisnavalt" target="_blank"><img src="img/tik-tok-logo.png"></a>
+                        <a href="https://www.tiktok.com/@luisnavalt" target="_blank"><img src="img/tik-tok-logo.png"
+                                alt="Tik Tok logo"></a>
                     </li>
                 </ul>
             </div>
             <div>
                 <img src="./img/luisnavalt-logo.png" alt="Logo Luis Nava Logística y Transportación" class="img-fluid">
-        </section>
-        <section class="reserved">
+            </div>
+        </div>
+        <div class="reserved">
             <p>ALL RIGHTS RESERVED</p>
-        </section>
+        </div>
     </footer>
     <!--Script Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

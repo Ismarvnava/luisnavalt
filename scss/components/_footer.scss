@@ -1,52 +1,10 @@
-/*Estilos footer*/
-.footer {
-    justify-content: center;
+.footer-container {
+    display: grid;
+    grid-template-columns: 40% 40% 5% 15%;
+    margin: 30px auto;
+}
 
-    .footer-section {
-        .col-md-3 col-sm-12 {
-            ul
-                li {
-                    list-style: none;
-                    text-transform: uppercase;
-                    text-align: end;
-                    font-size: 2rem;
-                    a {
-                        // Aplicar estilos al texto dentro de los enlaces
-                        text-decoration: none; // Eliminar subrayado
-                        color: #111111; // Color del texto
-                        font-weight: bold; // Fuente en negrita
-                        
-                    }
-                }
-            }
-        }
-    }
-
-    .partner-with-us {
-        text-transform: capitalize;
-        text-align: center;
-    }
-
-    .message {
-        p {
-            text-align: center;
-            color: red;
-            font-size: 2rem;
-            font-weight: 700;
-        }
-    }
-
-    .reserved {
-        p {
-            text-align: center;
-        }
-    }
-
-    .logo-footer {
-        text-align: right;
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    }
+.reserved{
+    display: grid;
+place-content: center;
+}
